@@ -80,3 +80,21 @@
     width: 20%;
     justify-content: space-between;
 }
+
+
+// BUTTON
+
+button, .button{
+    background-color: #5959596b;
+    padding: 3px 10px;
+    font-size: 1rem;
+    color: $color6;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid black;
+    &:hover{
+        cursor: pointer;
+        color: $color4;
+        border: 3px solid $color4;
+    }
+}
