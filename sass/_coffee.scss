@@ -1,0 +1,82 @@
+.fondoCoffee{
+    background-image: url(../assets/images/fondo-cafe.jfif);
+    height: 700px;
+    background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title{
+        color: $color6;
+        width: fit-content;
+        font-size: 5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 180px 40px 40px;
+        border-bottom: 7px solid $color6;
+    }
+    
+    &__text{
+        width: 75%;
+        max-height: 250px;
+        margin: 10px 30px 0px;
+        padding: 15px 10px;
+        font-size: 1.5rem;
+        color: $color6;
+        overflow-y: auto;
+    }
+}
+
+
+.mainCoffee{
+    padding: 30px 0px 30px;
+    background-color: $color2;
+}
+
+
+
+.beanCoffee{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+
+    &__title{
+        background-color: #aeb2bb;
+        color: $color1;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    &__info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2%;
+        &__img{
+            width: 45%;
+            & img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+        &__text {
+            width: 49%;
+            padding: 20px;
+            & h3{
+                font-size: 2.5rem;
+                color: $color1;
+                padding-bottom: 10px;
+            }
+            & p{
+                font-size: 1.5rem;
+                overflow-y: auto;
+                max-height: 200px;
+            }
+
+        }
+        
+    }
+}

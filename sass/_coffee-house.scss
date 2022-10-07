@@ -1,0 +1,73 @@
+.fondo-cafeteria{
+    background-image: url(../assets/images/cafeteria-fondo.webp);
+    background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.difuminado{
+    background-color: #0000009c;
+}
+
+.mainHouse__title{
+    color: $color4;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.mainHouse__subtitle{
+    color: $color6;
+    text-align: center;
+    padding: 15px 15px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+
+.cardHouse{
+    background-color:#ccd4d991;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px auto 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardhouse__head{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+.cardHouse__head__title{
+    padding-top: 3px;
+    color: $color4;
+}
+
+.cardHouse__head__follow{
+    padding-top: 4px;
+}
+
+
+.cardHouse__img{
+    display: flex;
+    gap: 15px;
+}
+
+.cardHouse__maps{
+    width: 90%;
+    justify-items: center;
+}
+
+.cardHouse__maps iframe{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,56 @@
+.fondoHome{
+    background-image: url(../assets/images/cafe-compratir.jpg);
+    height: 700px;
+    background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{ 
+        margin-top: 350px;
+        width: max-content;
+        font-size: 4rem;
+        color: $color6;
+        padding-left: 20px;
+        & span{
+            background-color: #5959596b;
+        }
+    }
+}
+
+
+
+.mainHome__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0px;
+    background-color: $color6;
+
+}
+
+.cardHome{
+    background-color: $color2;
+    margin-top: 30px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+    &__text{
+        text-align: center;
+        overflow-y: auto;
+    }
+    &__img {
+        width: 200px;
+        height: 200px;
+        
+        & img{
+            width: 100%;
+            border-radius: 100px;
+        }
+    }
+}

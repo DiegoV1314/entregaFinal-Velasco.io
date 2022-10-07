@@ -1,0 +1,66 @@
+.fondoContact{
+    background-image: url(../assets/images/contacto2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradienteContact{
+    background: linear-gradient(90deg, #f5fafa00, #ccd4d9b8, #f5fafa00);
+}
+
+.mainContact__title{
+    color: $color4;
+    font-size: 5rem;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.contact{
+    width: fit-content;
+    padding: 25px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxContact{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    & input{
+        width: 100%;
+        border: inherit;
+        border-bottom: 3px solid $color4;
+        background-color: inherit;
+        font-size: 1.2rem;
+    }
+    & label{
+        color: $color1;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.textareaContact{
+    width: 500px;
+    height: 200px;
+    & label{
+        color: $color1;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    & textarea{
+        width: 100%;
+        height: 80%;
+        margin-top: 10px;
+        background-color: inherit;
+        border: 3px solid $color4;
+        resize: none;
+    }
+
+}
+
+.buttonContact{
+    display: inline-block;
+    margin-top: 10px;
+}
