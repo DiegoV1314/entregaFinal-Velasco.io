@@ -233,7 +233,7 @@
 
 @media (max-width: 576px){
     .fondoContact{
-        height: calc(100vh - 100px);
+        height: calc(100vh - 80px);
     }
     
     .mainContact__title{
@@ -258,6 +258,7 @@
 
     .textareaContact{
         width: 100%;
+        height: 150px;
         & label{
             font-size: 1.2rem;
         }

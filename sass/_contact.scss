@@ -3,22 +3,30 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .gradienteContact{
     background: linear-gradient(90deg, #f5fafa00, #ccd4d9b8, #f5fafa00);
+    height: 100%;
 }
 
-.mainContact__title{
-    color: $color4;
-    font-size: 5rem;
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 0px;
+.mainContact{
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title{
+        color: $color4;
+        font-size: 5rem;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 0px;
+    }
 }
 
 .contact{
     width: fit-content;
-    padding: 25px 0px;
+    padding-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 }
