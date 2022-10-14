@@ -216,6 +216,9 @@
 
     .cardHouse__maps{
         width: 95%;
+        & iframe{
+            width: 80%;
+        }
     }
 }
 
