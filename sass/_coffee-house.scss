@@ -4,17 +4,26 @@
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .difuminado{
     background-color: #0000009c;
+    height: 100%;
+}
+
+.mainHouse{
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mainHouse__title{
     color: $color4;
     text-align: center;
     padding: 10px 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: 700;
     font-size: 3rem;
 }
@@ -34,7 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin: 20px auto 50px;
+    margin: 20px auto;
     align-items: center;
     gap: 20px;
 }
