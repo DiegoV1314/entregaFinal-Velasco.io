@@ -149,10 +149,15 @@
 .cardHome__img {
   width: 200px;
   height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
 }
 .cardHome__img img {
   width: 100%;
-  border-radius: 100px;
+  transition: all 500ms;
+}
+.cardHome__img img:hover {
+  transform: scale(1.2);
 }
 
 .fondoCoffee {
@@ -171,7 +176,7 @@
   font-size: 5rem;
   font-weight: 700;
   text-align: center;
-  margin: 180px 40px 40px;
+  margin: 250px 40px 40px;
   border-bottom: 7px solid #f5fafa;
 }
 .fondoCoffee__text {
@@ -182,6 +187,9 @@
   font-size: 1.5rem;
   color: #f5fafa;
   overflow-y: auto;
+}
+.fondoCoffee a b {
+  color: #Ffb300;
 }
 
 .mainCoffee {
