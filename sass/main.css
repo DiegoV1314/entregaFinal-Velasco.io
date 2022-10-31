@@ -71,7 +71,7 @@
 .footer {
   height: 80px;
   display: flex;
-  padding-top: 40px;
+  padding-top: 25px;
   padding-bottom: 12px;
   background-color: #595959;
   justify-content: center;
@@ -90,11 +90,12 @@
   color: #f5fafa;
   font-weight: 600;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 .button:hover {
   cursor: pointer;
   color: #Ffb300;
+  background-color: black;
   border: 3px solid #Ffb300;
 }
 
@@ -483,6 +484,10 @@
   border-bottom: 3px solid #Ffb300;
   background-color: inherit;
   font-size: 1.2rem;
+  outline: 0px;
+}
+.boxContact input:focus {
+  border-bottom: 3px solid #Ffb300;
 }
 .boxContact label {
   color: #0a0000;
@@ -506,6 +511,10 @@
   background-color: inherit;
   border: 3px solid #Ffb300;
   resize: none;
+  outline: 0px;
+}
+.textareaContact textarea:focus {
+  border: 3px solid #Ffb300;
 }
 
 .buttonContact {
@@ -723,5 +732,11 @@
   }
   .textareaContact label {
     font-size: 1.2rem;
+  }
+}
+/* responsive footer */
+@media (max-width: 576px) {
+  .footer__social {
+    width: 60%;
   }
 }/*# sourceMappingURL=main.css.map */

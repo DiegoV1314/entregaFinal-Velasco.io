@@ -41,6 +41,10 @@
         border-bottom: 3px solid $color4;
         background-color: inherit;
         font-size: 1.2rem;
+        outline: 0px;
+        &:focus{
+            border-bottom: 3px solid $color4;
+        }
     }
     & label{
         color: $color1;
@@ -64,6 +68,10 @@
         background-color: inherit;
         border: 3px solid $color4;
         resize: none;
+        outline: 0px;
+        &:focus{
+            border: 3px solid $color4;
+        }
     }
 
 }
